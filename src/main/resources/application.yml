@@ -1,0 +1,11 @@
+spring:
+  # RabbitMQ 配置
+  rabbitmq:
+    host: 124.220.194.38
+    port: 5672
+    username: test
+    password: test
+    virtual-host: /test
+    listener:
+      simple:
+        acknowledge-mode: MANUAL # 手动指定 ack
